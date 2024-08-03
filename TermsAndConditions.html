@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title Tag -->
+    <title>QASH Store</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/QASH Store.png"
+      type="image/x-icon"
+    />
+    <!-- Rendar All Element Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Main File Css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Google Fonts Library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Start Header Section -->
+    <header>
+      <div class="container">
+        <div class="left-side">
+          <a href="./index.html">
+            <h2>QashStore</h2>
+            <p>Digital Products</p>
+          </a>
+        </div>
+        <div class="right-side">
+          <nav>
+            <i onclick="toggleList()" class="fa-solid fa-bars"></i>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./shop.html">Shop</a></li>
+              <li><a href="./contactUs.html">Contact Us</a></li>
+              <li><a href="./TermsAndConditions.html">Policies</a></li>
+            </ul>
+          </nav>
+
+          <!-- Modal -->
+          <ul class="modal hidden" id="modal">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="./contactUs.html">Contact Us</a></li>
+            <li><a href="./TermsAndConditions.html">Policies</a></li>
+          </ul>
+          <!-- Modal -->
+        </div>
+      </div>
+    </header>
+    <!-- End Header Section -->
+    <!-- Start Terms & Conditions Section -->
+    <div class="TermsAndConditions">
+      <div class="container" lang="ar" dir="rtl">
+        <div>
+          <h2>مقدمة</h2>
+          <p>
+            مرحبًا بك في متجر QashStore. باستخدامك لموقعنا الإلكتروني أو
+            تطبيقنا، فإنك توافق على الالتزام بالشروط والأحكام التالية. يرجى
+            قراءة هذه الشروط بعناية قبل إجراء أي عملية شراء.
+          </p>
+        </div>
+        <h2>1. الخدمات المقدمة</h2>
+        <p>
+          QashStore هو متجر رقمي يبيع منتجات رقمية تشمل، ولكن لا تقتصر على،
+          البرمجيات، الكتب الإلكترونية، الدورات التدريبية، والوسائط المتعددة.
+          جميع المنتجات المتاحة هي تنزيلات رقمية أو تقديم خدمات عبر الإنترنت
+        </p>
+        <div>
+          <h2>2. التسجيل وحسابات المستخدمين</h2>
+          <p>
+            للتمكن من شراء المنتجات، قد يُطلب منك التسجيل وإنشاء حساب. أنت مسؤول
+            عن الحفاظ على سرية معلومات حسابك وعدم مشاركتها مع أي طرف ثالث. أنت
+            مسؤول عن جميع الأنشطة التي تتم باستخدام حسابك.
+          </p>
+        </div>
+        <div>
+          <h2>3. الشراء والدفع</h2>
+          <p>
+            تتم عمليات الشراء عبر موقعنا باستخدام وسائل الدفع المتاحة والتي تشمل
+            التواصل عبر الواتساب نحن نحتفظ بالحق في تغيير أو تعديل طرق الدفع في
+            أي وقت.
+          </p>
+        </div>
+        <div>
+          <h2>4. تسليم المنتجات الرقمية</h2>
+          <p>
+            بمجرد تأكيد الدفع، سيتم إرسال رابط لتنزيل المنتج الرقمي إلى رقم
+            الواتساب الذي قمت بالتواصل معنا من خلاله. لا يمكن إرجاع المنتجات
+            الرقمية بعد الشراء نظرًا لطبيعتها.
+          </p>
+        </div>
+        <div>
+          <h2>5. حقوق الملكية الفكرية</h2>
+          <p>
+            جميع الحقوق المتعلقة بالمنتجات الرقمية، بما في ذلك حقوق النشر
+            وبراءات الاختراع والعلامات التجارية، هي ملك لـ QashStore أو للموردين
+            الذين نعمل معهم. لا يجوز لك نسخ أو توزيع أو تعديل أي منتج رقمي دون
+            الحصول على إذن مسبق.
+          </p>
+        </div>
+        <div>
+          <h2>6. سياسة الاسترجاع</h2>
+          <p>
+            نظراً لطبيعة المنتجات الرقمية، لا نقبل عمليات إرجاع أو استرداد
+            الأموال إلا في حالات نادرة مثل الأخطاء التقنية التي تمنع الوصول إلى
+            المنتج. يرجى التواصل معنا عبر دعم العملاء في حال واجهت أي مشاكل.
+          </p>
+        </div>
+        <div>
+          <h2>7. المسؤولية</h2>
+          <p>
+            لن نكون مسؤولين عن أي أضرار غير مباشرة أو تبعية قد تنشأ عن استخدامك
+            لموقعنا أو منتجاتنا الرقمية. يقتصر مسؤوليتنا على مبلغ الشراء الذي
+            دفعته للحصول على المنتج الرقمي.
+          </p>
+        </div>
+        <div>
+          <h2>8. التعديلات على الشروط</h2>
+          <p>
+            نحتفظ بالحق في تعديل أو تحديث هذه الشروط والأحكام في أي وقت. ستكون
+            التعديلات سارية المفعول فور نشرها على موقعنا. يتعين عليك مراجعة
+            الشروط بانتظام للتأكد من أنك على دراية بأي تغييرات.
+          </p>
+        </div>
+        <div>
+          <h2>9. القانون المطبق</h2>
+          <p>
+            تخضع هذه الشروط والأحكام للقوانين المحلية السارية في الدولة التي
+            نعمل بها، وأي نزاعات تتعلق بها سيتم حلها وفقًا لتلك القوانين.
+          </p>
+        </div>
+        <div>
+          <h2>10. التواصل</h2>
+          <p>
+            لأي استفسارات أو مشكلات تتعلق بالشروط والأحكام أو أي جانب من جوانب
+            خدماتنا، يرجى الاتصال بنا عبر الواتساب.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Terms & Conditions Section -->
+    <!-- Start Footer Section -->
+    <div class="footer">
+      <p>Copyright © 2024 QashStore | Powered by QashStore</p>
+    </div>
+    <!-- End Footer Section -->
+    <!-- Connect JS File -->
+    <script src="script.js"></script>
+    <!-- Connect JS File -->
+  </body>
+</html>
