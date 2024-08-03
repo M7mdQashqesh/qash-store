@@ -389,6 +389,7 @@ header .container .right-side nav ul li a:hover {
 .TermsAndConditions .container {
   padding: 50px 15px;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: "Cairo", sans-serif;
 }
 
 .TermsAndConditions .container h2 {
