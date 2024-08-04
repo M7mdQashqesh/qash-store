@@ -43,8 +43,8 @@ body {
   }
 }
 
-.border {
-  border: 2px solid red;
+.hidden {
+  display: none;
 }
 
 .main-text {
@@ -61,6 +61,7 @@ body {
 
 .main-text p {
   color: #777;
+  line-height: 1.6;
 }
 
 @media (max-width: 767px) {
@@ -116,10 +117,6 @@ header .container .left-side p {
   margin-top: 5px;
 }
 
-.hidden {
-  display: none;
-}
-
 header .container .right-side nav i {
   font-size: 25px;
   display: none;
@@ -128,7 +125,7 @@ header .container .right-side nav i {
 header .container .right-side nav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 
 header .container .right-side nav ul li {
@@ -334,7 +331,7 @@ header .container .right-side nav ul li a:hover {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 50px;
 }
 
 .products .container .products-container .product .text h4 {
@@ -376,6 +373,59 @@ header .container .right-side nav ul li a:hover {
   margin-right: 10px;
 }
 /* End Products */
+
+/* Start Customer Reviews */
+.customer-reviews {
+  padding: 0 0 100px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 50px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #333;
+  font-family: "Cairo", sans-serif;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #666;
+  font-family: "Cairo", sans-serif;
+  line-height: 1.6;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.stars span {
+  font-size: 24px;
+  color: #ffcc00;
+  margin: 0 2px;
+}
+/* End Customer Reviews */
 
 /* Start Footer */
 .footer {
