@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title Tag -->
+    <title>QASH Store</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/QASH Store.png"
+      type="image/x-icon"
+    />
+    <!-- Rendar All Element Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Main File Css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Google Fonts Library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Start Header Section -->
+    <header>
+      <div class="container">
+        <div class="left-side">
+          <a href="./index.html">
+            <h2>QashStore</h2>
+            <p>Digital Products</p>
+          </a>
+        </div>
+        <div class="right-side">
+          <nav>
+            <i onclick="toggleList()" class="fa-solid fa-bars"></i>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./contactUs.html">Contact Us</a></li>
+              <li><a href="./TermsAndConditions.html">Policies</a></li>
+            </ul>
+          </nav>
+
+          <!-- Modal -->
+          <ul class="modal hidden" id="modal">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./contactUs.html">Contact Us</a></li>
+            <li><a href="./TermsAndConditions.html">Terms & Conditions</a></li>
+          </ul>
+          <!-- Modal -->
+        </div>
+      </div>
+    </header>
+    <!-- End Header Section -->
+    <!-- Start Main Section -->
+    <main>
+      <div class="container">
+        <div class="contact-card">
+          <div class="card-header">
+            <h2>Contact Us</h2>
+          </div>
+          <div class="card-body">
+            <p>
+              We are here to help you! Feel free to reach out to us via WhatsApp
+              for any inquiries.
+            </p>
+            <img src="./assets/QASHStore.png" alt="" />
+            <a
+              href="https://wa.me/972592047210"
+              class="whatsapp-button"
+              target="_blank"
+            >
+              <i class="fab fa-whatsapp"></i> Chat with Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- End Main Section -->
+    <!-- Start Footer Section -->
+    <div class="footer">
+      <p>Copyright © 2024 QashStore | Powered by QashStore</p>
+    </div>
+    <!-- End Footer Section -->
+    <!-- Connect Js File -->
+    <script src="script.js"></script>
+    <!-- Connect Js File -->
+  </body>
+</html>

@@ -171,7 +171,7 @@ header .container .right-side nav ul li a:hover {
   }
 
   header .container .right-side ul.modal li {
-    padding: 10px 0 15px 10px;
+    padding: 20px 0 25px 10px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   }
 
@@ -180,6 +180,7 @@ header .container .right-side nav ul li a:hover {
   }
 
   header .container .right-side ul.modal li a {
+    display: block;
     text-decoration: none;
     transition: 0.3s;
     color: var(--text-color);
@@ -404,3 +405,61 @@ header .container .right-side nav ul li a:hover {
   padding-bottom: 50px;
 }
 /* End Terms & Conditions */
+
+/* Start Contact Us */
+main .container {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+main .container .contact-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+  width: 700px;
+  text-align: center;
+  padding: 50px;
+}
+
+main .container .contact-card .card-header h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+main .container .contact-card .card-body p {
+  color: #666;
+  font-size: 16px;
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+main .container .contact-card .card-body img {
+  max-width: 100%;
+}
+
+main .container .contact-card .card-body .whatsapp-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+main .container .contact-card .card-body .whatsapp-button:hover {
+  background-color: #1ebe56;
+}
+
+main .container .contact-card .card-body .whatsapp-button i {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* End Contact Us */
